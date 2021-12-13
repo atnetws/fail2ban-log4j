@@ -34,9 +34,11 @@ Logpath for LAMP servers managed by ispConfig:
 logpath = /var/www/clients/client*/web*/log/access.log
 ```
 
-### Efectiveness  
+### Effectiveness  
 
 As of now, this regex catches jndi:ldap requests that contain "jndi:ldap" and one obfuscated version using "lower".  
 I'll add more as soon as I find them, but feel free to submit suggestions. 
 
+#### Does it work?
 
+Yes and no. From a technical point of view, it does what it is supposed to to. It detects known formats of log4shell attempts and should at least keep those who don't put too much effort in their scans blocked from your machines. Unfortunately, the possibilities of masking / obfuscating these requests are unlimited, so keeping up with all possible RegEx variants might appear like a cat-and-mouse game.

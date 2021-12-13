@@ -1,0 +1,5 @@
+# This is a list of IP addresses that were blocked by fail2ban on my machines using the apache-jndi filter.
+
+139.59.101.242 
+167.99.204.151 
+167.114.24.16
