@@ -1,5 +1,5 @@
 # fail2ban-log4j
-fail2ban filter that catches attacks againts log4j CVE-2021-44228
+fail2ban filter that catches attacks against log4j CVE-2021-44228
 
 ## Installation
 Copy this file to your fail2ban filter.d directory, which is usually something like  
