@@ -34,7 +34,7 @@ Logpath for LAMP servers managed by ispConfig:
 logpath = /var/www/clients/client*/web*/log/access.log
 ```
 
-### Efectiveness  
+### Effectiveness  
 
 As of now, this regex catches jndi:ldap requests that contain "jndi:ldap" and one obfuscated version using "lower".  
 I'll add more as soon as I find them, but feel free to submit suggestions. 
