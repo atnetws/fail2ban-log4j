@@ -28,6 +28,12 @@ bantime = 86400
 maxretry = 1
 ```
 
+Logpath for LAMP servers managed by ispConfig:
+
+```
+logpath = /var/www/clients/client*/web*/log/access.log
+```
+
 ### Efectiveness  
 
 As of now, this regex catches jndi:ldap requests that contain "jndi:ldap" and one obfuscated version using "lower".  
