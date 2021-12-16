@@ -42,3 +42,8 @@ I'll add more as soon as I find them, but feel free to submit suggestions.
 #### Does it work?
 
 Yes and no. From a technical point of view, it does what it is supposed to to. It detects known formats of log4shell attempts and should at least keep those who don't put too much effort in their scans blocked from your machines. Unfortunately, the possibilities of masking / obfuscating these requests are unlimited, so keeping up with all possible RegEx variants might appear like a cat-and-mouse game.
+
+#### Like this?
+
+If this saved you some time, why not [Buy me a coffee](https://www.buymeacoffee.com/atnetws)? ;)
+

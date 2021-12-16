@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
  
+## [0.0.4] - 2021-12-16
+Improved RegEx
+ 
 ## [0.0.3] - 2021-12-15
 Added improved regex to catch lines like "${::-j}${::-n}${::-d}${::-i}..."
 
