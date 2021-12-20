@@ -11,6 +11,7 @@ Add an apache-jndi section to your jail.local or jail.conf:
 ```
 [apache-jndi]
 enabled = true
+filter = apache-jndi
 port = http,https
 logpath = /var/log/apache2/access.log
 bantime = 86400
@@ -22,6 +23,7 @@ In case you need to monitor multiple sites, wildcards may help:
 ```
 [apache-jndi]
 enabled = true
+filter = apache-jndi
 port = http,https
 logpath = /var/www/*/logs/access.log
 bantime = 86400
@@ -33,6 +35,11 @@ Logpath for LAMP servers managed by ispConfig:
 ```
 logpath = /var/www/clients/client*/web*/log/access.log
 ```
+
+These are examples assuming
+- A single try reveals that they're a bad guy
+- You only want to block further http(s) traffic. Of course, you might as well block any other ports, too.
+
 
 ### Effectiveness  
 
