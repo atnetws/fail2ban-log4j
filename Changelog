@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  
 
 ### Changed
- 
+
+## [0.0.5] - 2021-12-16
+Added filter assignment to sample config
+
 ## [0.0.4] - 2021-12-16
 Improved RegEx
  
