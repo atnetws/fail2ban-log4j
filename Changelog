@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+## [0.0.6] - 2021-12-16
+Improved regex to match "rmi" and lower/upper in different formats
+
 ## [0.0.5] - 2021-12-16
 Added filter assignment to sample config
 
